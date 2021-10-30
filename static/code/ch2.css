@@ -1,0 +1,70 @@
+table, td{
+    border-collapse: collapse;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+/* ------------ */
+
+.t0 {
+    margin-top: 200;
+    border-spacing: 10%;
+    width: 100%;
+    background-color: #666;
+	margin-bottom: 200;
+}
+
+.t0-5 {
+    border-spacing: 10%;
+    width: 210px;
+    background-color: #999;
+	margin: 100;
+	margin-left: 200;
+	margin-right: 50;
+	border-radius: 15px;
+}
+
+.item {
+	font-size: 20;
+	border: 1px none;
+    text-align: left;
+    padding: 8px;
+}
+
+.diagram {
+	width: 75%;
+	margin-left: 20;
+	border-radius: 50px;
+}
+
+/* ------------ */
+
+.t1 {
+    margin-top: 200;
+    border-spacing: 10%;
+    width: 100%;
+    background-color: #999;
+	margin-bottom: 200;
+}
+
+.t2 {
+	margin: 60;
+	margin-left: auto;
+	margin-right: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+	background-color: #d9d9d9;
+	border-radius: 15px;
+}
+
+
+.td1, .th1 {
+    border: 1x solid #000;
+    text-align: left;
+    padding: 8px;
+	font-size: 18;
+}

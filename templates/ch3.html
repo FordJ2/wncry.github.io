@@ -1,0 +1,357 @@
+<html>
+    <title>ICS3UA 3</title>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='code/ch3.css') }}">
+        <link rel="shortcut icon" href="/static/assets/pfp.ico">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			/* width */
+			::-webkit-scrollbar {
+			  width: 10px;
+			}
+			
+			/* Track */
+			::-webkit-scrollbar-track {
+			  background: #f1f1f1; 
+			}
+			 
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+			  background: #888; 
+			}
+			
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+			  background: #555; 
+			}
+
+            .body {
+                background-color:#000;
+            }
+
+            .navbar {
+                font-size: 75px;
+                background-color: #434343;
+                border-radius: 5px;
+                margin-top: 60px;
+            } 
+
+            .navbar-nav .nav-item .nav-link {
+                margin-left: 49;
+                margin-right: 48.5;
+                z-index: 2;
+                position: relative;
+                text-align: center;
+            }
+
+            .e {
+                font-size: 120px;
+                z-index: 1;
+                margin-top: -27;
+                position: absolute;
+                text-align: center;
+            }
+
+            .navbar-nav .nav-item.active .nav-link,
+            .navbar-nav .nav-item:hover .nav-link {
+                color: #000;
+            }
+		</style>
+    </head>
+
+    <body class="body">
+        <div class="container" style="position: absolute;">
+            <ul>
+                
+            </ul>
+        </div>
+
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+
+                        <p class="e" style="color: #000; left: 92;">■</p>
+                        <p class="e" style="color: #666; left: 347;">■</p>
+                        <p class="e" style="color: #999; left: 602;">■</p>
+                        <p class="e" style="color: #d9d9d9; left: 861;">■</p>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/0">⠀0⠀</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/1">⠀1⠀</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/2">⠀2⠀</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/3">⠀3⠀</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+
+     <!--==================================================-->
+
+
+
+        <table class="table1">
+            <tr>
+                <td>
+                    <p class="tablecontent1" style="margin-bottom: 100px">
+                        <table class="p1table">
+                            <tr>
+                                <th class="p1th">SMALL BUSINESS OWNER</th>
+                                <th class="p1th">$800USD (1.13%HST)</th>
+                            </tr>
+
+                            <tr>
+                                <td class="p1td">
+                                    <p>AMD Ryzen 5 2600 → <a href="https://pcpartpicker.com/product/jLF48d/amd-ryzen-5-2600-34ghz-6-core-processor-yd2600bbafbox">$190</a></p>
+                                    The Ryzen 5 2600 has the perfect balance between budget and performance. With 6 cores and 12 threads at 3.6 Ghz base, and 3.9 Ghz boost, it can do everything a business owner, such as yourself, could dream of, at a reasonable price. A CPU cooler is included with the CPU.
+                                    
+                                </td>
+                                <td class="p1td imagecontainer"><img class="img1-1" src="https://cdna.pcpartpicker.com/static/forever/images/product/55aea2dd64e2e3a3e3b1d678048d8d76.256p.jpg" alt="img1-1"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p1td">
+                                    <p>ASRock B450M Pro4 → <a href="https://pcpartpicker.com/product/dQgzK8/asrock-b450m-pro4-micro-atx-am4-motherboard-b450m-pro4">$70</a></p>
+                                    While not being too flashy, the ASRock B450M Pro4 is a versitile motherboard with an extensive list of supported features, all the while staying well under $100.
+                                </td>
+                                <td class="p1td imagecontainer"><img class="img1-2" src="https://cdna.pcpartpicker.com/static/forever/images/product/8f8baff091bfd5ef531c7ddb1a602ca4.256p.jpg" alt="img1-2"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p1td">
+                                    <p>Crucial Ballistix 8 GB → <a href="https://pcpartpicker.com/product/8XMTwP/crucial-ballistix-8-gb-2-x-4-gb-ddr4-2400-memory-bl2k4g24c16u4b">$40</a></p>
+                                    Crucial Ballistix has some of the cleanest RAM (Random Access Memory) in the industry. Their sleek design catches many an eye, while staying at an increadible price. To fit within the $800 budget, initially only buy one set of two. However, once your business expands and you start makeing some profits, I would highly recommend purchasing a second set of RAM DIMMs (Dual Inline Memory Module) for a total of 16 GB.
+                                </td>
+                                <td class="p1td imagecontainer"><img class="img1-3" src="https://m.media-amazon.com/images/I/3180qiEYEeL.jpg" alt="img1-3"></td>
+                            </tr>
+                        </table>
+                    </p>
+                </td>
+
+
+                
+                <td>
+                    <p class="tablecontent1">
+                        <table class="p1-2table">
+                            <tr>
+                                <th class="p1-2th">GAMING ENTHUSIAST</th>
+                                <th class="p1-2th">$1650USD (1.13%HST)</th>
+                            </tr>
+
+                            <tr>
+                                <td class="p1-2td">
+                                    <p>AMD Ryzen 5 5600X → <a href="https://ca.pcpartpicker.com/product/g94BD3/amd-ryzen-5-5600x-37-ghz-6-core-processor-100-100000065box">$300</a></p>
+                                    As a part of the new 5000 series of Ryzen CPUs, the Ryzen 5 5600X puts an emphasis on perfomance above all else. Its 3.7 Ghz base, 4.6 Ghz boost on 6 cores and 12 threads, makes it excellant at all workloads whether it be gaming, or 3D rendering. A CPU cooler is included with the CPU.
+                                    
+                                </td>
+                                <td class="p1-2td imagecontainer"><img class="img1-1" src="https://cdna.pcpartpicker.com/static/forever/images/product/3ef757133d38ac40afe75da691ba7d60.256p.jpg" alt="img1-1"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p1-2td">
+                                    <p>Gigabyte B550M → <a href="https://pcpartpicker.com/product/dQgzK8/asrock-b450m-pro4-micro-atx-am4-motherboard-b450m-pro4">$90</a></p>
+                                    This $90 motherboard is full of features along with almost complete support for the newest hardware. It is a slick board that does everything one would need it to without skimping on anything
+                                </td>
+                                <td class="p1-2td imagecontainer"><img class="img1-2" src="https://cdna.pcpartpicker.com/static/forever/images/product/cdf933968ed120030fb424c75188d6b7.256p.jpg" alt="img1-2"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p1-2td">
+                                    <p>Crucial Ballistix 32 GB → <a href="https://ca.pcpartpicker.com/product/gCCFf7/crucial-ballistix-32-gb-2-x-16-gb-ddr4-3200-memory-bl2k16g32c16u4b">$140</a></p>
+                                    Nowadays one can't do much without at least 16 GB of RAM. 32 GB is the perfect mix between affordable and future proof. 32 GB at 3200 Mhz should also eliminate the possibility for RAM to be a possible bottleneck in your system.
+                                </td>
+                                <td class="p1-2td imagecontainer"><img class="img1-3" src="https://cdna.pcpartpicker.com/static/forever/images/product/aa34b3c28154431c4b8ebd2f90a647e4.256p.jpg" alt="img1-3"></td>
+                            </tr>
+                        </table>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+        <table class="table2">
+            <tr>
+                <td>
+                    <p class="tablecontent2" style="margin-bottom: 367px">
+                        <table class="p2table">
+                            <tr>
+                                <th class="p2th">SMALL BUSINESS OWNER</th>
+                                <th class="p2th">$800USD (1.13%HST)</th>
+                            </tr>
+
+                            <tr>
+                                <td class="p2td">
+                                    <p>Seagate Barracuda Compute 4 TB → <a href="https://pcpartpicker.com/product/tmTPxr/seagate-barracuda-compute-4-tb-35-7200rpm-internal-hard-drive-st4000dmz04">$60</a></p>
+                                    As a small business owner, I imagine you would need backups and records of all your clients, inventory and whatnot. For this, I would highly reccomend purchasing two 4 TB drives for a total of eight terrabytes but much like the RAM, only after you earn enough income as the second one does not fit within the $800 budget.
+                                </td>
+                                <td class="p2td imagecontainer"><img class="img2-1" src="https://m.media-amazon.com/images/I/41V7Idv87eL.jpg" alt="img2-1"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p2td">
+                                    <p>EVGA GeForce GTX 1650 4 GB → <a href="https://pcpartpicker.com/product/LxkgXL/evga-geforce-gtx-1650-g6-4-gb-sc-ultra-gaming-video-card-04g-p4-1257-kr">$130</a></p>
+                                    Crunching numbers and building spreadsheets doesnt require GPU power, so the EVGA GTX 1650 is a perfect fit for your needs as it is compatable with your monitor, and doesnt have too many bells and whistles. 
+                                </td>
+                                <td class="p2td imagecontainer"><img class="img2-2" src="https://cdna.pcpartpicker.com/static/forever/images/product/97a8fabe6753e251584fb73df756d764.256p.jpg" alt="img2-2"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p2td">
+                                    <p>Thermaltake Versa H17 → <a href="https://pcpartpicker.com/product/JtWfrH/thermaltake-versa-h17-microatx-mini-tower-case-ca-1j1-00s1nn-00">$40</a></p>
+                                    The Thermaltake Versa H17 is one of the most professional looking, yet budget friendly, cases I could find. Its brushed aluminum surface calls for attention, yet it does not restrict airflow which is necessary for any computer.
+                                </td>
+                                <td class="p2td imagecontainer"><img class="img2-3" src="https://cdna.pcpartpicker.com/static/forever/images/product/629f2789011af7e733b1ae66154b1e54.256p.jpg" alt="img2-3"></td>
+                            </tr>
+                        </table>
+                    </p>
+                </td>
+
+                <td>
+                    <p class="tablecontent2">
+                        <table class="p2-2table">
+                            <tr>
+                                <th class="p2-2th">GAMING ENTHUSIAST</th>
+                                <th class="p2-2th">$1650USD (1.13%HST)</th>
+                            </tr>
+
+                            <tr>
+                                <td class="p2-2td">
+                                    <p>Patriot VPN100 256 GB → <a href="https://ca.pcpartpicker.com/product/Ljw7YJ/patriot-vpn100-256-gb-m2-2280-solid-state-drive-vpn100-256gm28h">$50</a></p>
+                                    For an avid gamer such as yourself, storage needs to fit 2 requirements: fast and large. Here, I have listed a boot drive; this is what you will be installing windows on. Its highspeed NVME capabilities with a 512MB cache makes it perfect for fast loading times in games, as well as other software. I would not recommend installing large games on this, but rather small high perfroming applications.
+                                </td>
+                                <td class="p2-2td imagecontainer"><img class="img2-1" src="https://cdna.pcpartpicker.com/static/forever/images/product/e0cb65cd2d53bdf3a8313e6b74bfa471.256p.jpg" alt="img2-1"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p2-2td">
+                                    <p>Seagate Barracuda Compute 2 TB → <a href="https://ca.pcpartpicker.com/product/mwrYcf/seagate-barracuda-computer-2-tb-35-7200rpm-internal-hard-drive-st2000dm008">$50</a></p>
+                                    To start off with, 2 TB should be enough for anybody. The highly reliable high capacity can lead you to victory in many a game. Down the road as your game collection expands fatrther into the terrabytes, I would recommend buying two or even three of some of Seagates linup.
+                                </td>
+                                <td class="p2-2td imagecontainer"><img class="img2-1" src="https://cdna.pcpartpicker.com/static/forever/images/product/c7b5b7dacbecdcdd0e073b761193eef6.256p.jpg" alt="img2-1"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p2-2td">
+                                    <p>	NVIDIA GeForce RTX 3060 Ti 8 GB → <a href="https://pcpartpicker.com/product/LxkgXL/evga-geforce-gtx-1650-g6-4-gb-sc-ultra-gaming-video-card-04g-p4-1257-kr">$400</a></p>
+                                    The 3060 Ti is arguably the best graphics card on the market from a price to performance standpoint. Its 8 GB of VRAM is more than enough for texture packs, and its RTX capabilities leave its competators in the dust. <a href="https://bit.ly/3bw9sGp">Here</a> is an article that I wrote last year for school. Please note that you might need to borrow some money from a friend in order to purchase this card. If you are unable to obtain the funds immediatly, I would recommend saving up for just a little while longer.
+                                </td>
+                                <td class="p2-2td imagecontainer"><img class="img2-2" src="https://cdna.pcpartpicker.com/static/forever/images/product/97a8fabe6753e251584fb73df756d764.256p.jpg" alt="img2-2"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p2-2td">
+                                    <p>Cougar MG120 → <a href="https://ca.pcpartpicker.com/product/hrrYcf/cougar-mg120-microatx-mini-tower-case-mg120">$40</a></p>
+                                    The Cougar MG120 is an outstanding case. Its looks match its reputation, all the while remaining relatively cheap. This case is notably easy to work in, and can provide you with an excellent first experience building a computer.
+                                </td>
+                                <td class="p2-2td imagecontainer"><img class="img2-3" src="https://cdna.pcpartpicker.com/static/forever/images/product/8c6bc9574e2af235da461695546845eb.256p.jpg" alt="img2-3"></td>
+                            </tr>
+                        </table>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+
+        <table class="table3">
+            <tr>
+                <td>
+                    <p class="tablecontent3" style="margin-bottom: 403px">
+                        <table class="p3table">
+                            <tr>
+                                <th class="p3th">SMALL BUSINESS OWNER</th>
+                                <th class="p3th">$800USD (1.13%HST)</th>
+                            </tr>
+
+                            <tr>
+                                <td class="p3td">
+                                    <p>EVGA G3 550W 80+ Gold → <a href="https://pcpartpicker.com/product/sMM323/evga-supernova-g3-550w-80-gold-certified-fully-modular-atx-power-supply-220-g3-0550">$50</a></p>
+                                    The EVGA G3 550W 80+ Gold is one of those power supplies that everyone recommends. One of things that set this apart from many of the other PSUs, is its 80+ Gold rating at $50. 80+ is a voluntary standard of certification that is accepted by all. Gold, is its thrid highest rating of power supplies (out of 6). This power supply can get what you need done, while staying within your budget. If you are planning on dealing with highly sensitive information, I would recommend you purchase an external UPS (uninterupted power supply) as it can prevent falure in a blackout.
+                                </td>
+                                <td class="p3td imagecontainer"><img class="img3-1" src="https://cdna.pcpartpicker.com/static/forever/images/product/1dd87da4186d59970d24232ebfd36278.256p.jpg" alt="img3-1"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p3td">
+                                    <p>Asus VP228HE 21.5" → <a href="https://pcpartpicker.com/product/YYsnTW/asus-vp228he-215-1920x1080-60-hz-monitor-vp228he">$100</a></p>
+                                    While not being too flashy, you will definitly appreciate having a 1920x1080 screen no matter the workload. And coming in at only $100, I would say that its a pretty good deal.
+                                </td>
+                                <td class="p3td imagecontainer"><img class="img3-1" src="https://cdna.pcpartpicker.com/static/forever/images/product/8867fe547a8f02883838f2ca65220fa6.256p.jpg" alt="img3-1"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p3td">
+                                    <p>Inland 70119 → <a href="https://pcpartpicker.com/product/WhbwrH/inland-70119-wireless-standard-keyboard-with-optical-mouse-70119">$15</a></p>
+                                    This keyboard + mouse combo is an excellent deal as it saves a decent amount of money. It also looks quite standard for the professional workspace.
+                                </td>
+                                <td class="p3td imagecontainer"><img class="img3-2" src="https://cdna.pcpartpicker.com/static/forever/images/product/676464bbb30c277fab75fda78e92e499.256p.jpg" alt="img3-2"></td>
+                            </tr>
+                        </table>
+                    </p>
+                </td>
+
+
+                <td>
+                    <p class="tablecontent3">
+                        <table class="p3-2table">
+                            <tr>
+                                <th class="p3-2th">GAMING ENTHUSIAST</th>
+                                <th class="p3-2th">$1650USD (1.13%HST)</th>
+                            </tr>
+
+                            <tr>
+                                <td class="p3-2td">
+                                    <p>EVGA G3 550W 80+ Gold → <a href="https://pcpartpicker.com/product/sMM323/evga-supernova-g3-550w-80-gold-certified-fully-modular-atx-power-supply-220-g3-0550">$50</a></p>
+                                    The EVGA G3 550W 80+ Gold is one of those power supplies that everyone recommends. One of things that set this apart from many of the other PSUs, is its 80+ Gold rating at $50. 80+ is a voluntary standard of certification that is accepted by all. Gold, is its thrid highest rating of power supplies (out of 6). This power supply can support your system, while still managing to leave you with some wattage headroom in case of a power surge in the electrical grid. If you are planning on gaming for a living, I would recommend you purchase an external UPS (uninterupted power supply) as it can prevent falure in a blackout.
+                                </td>
+                                <td class="p3-2td imagecontainer"><img class="img3-1" src="https://cdna.pcpartpicker.com/static/forever/images/product/1dd87da4186d59970d24232ebfd36278.256p.jpg" alt="img3-1"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p3-2td">
+                                    <p>LG 24GN650-B 24.0" → <a href="https://pcpartpicker.com/product/xfytt6/lg-24gn650-b-240-1920x1080-144-hz-monitor-24gn650-b">$200</a></p>
+                                    This LG monitor boasts a 144hz refreshrate, and a 1ms response time. And at $200, this makes for a killer of a deal.
+                                </td>
+                                <td class="p3-2td imagecontainer"><img class="img3-1" src="https://cdna.pcpartpicker.com/static/forever/images/product/1ddaed6942bce9873c670d77f9bb2e60.256p.jpg" alt="img3-1"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p3-2td">
+                                    <p>G.Skill KM360 → <a href="https://pcpartpicker.com/product/Zkdrxr/gskill-km360-wired-standard-keyboard-gk-k0wc4-km360-h10na">$50</a></p>
+                                    While gaming one needs to focus on the game alone. This keyboard uses Cherry MX Red switches which have some of the fastest travel times in the world. The design of the 75% keyboard is also nothing to laugh at.
+                                </td>
+                                <td class="p3-2td imagecontainer"><img class="img3-2" src="https://cdna.pcpartpicker.com/static/forever/images/product/4d9ce21034744ef229910a9b558301b1.256p.jpg" alt="img3-2"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="p3-2td">
+                                    <p>Glorious PC Gaming Race MODEL O → <a href="https://pcpartpicker.com/product/PQCD4D/glorious-pc-gaming-race-model-o-wired-optical-mouse-go-black">$60</a></p>
+                                    The MODEL O of the Glorious PCGR is one of the most respected mice in the industry. With light speed optical switches, every click is powerful.
+                                </td>
+                                <td class="p3-2td imagecontainer"><img class="img3-2" style="margin: 0;" src="https://cdna.pcpartpicker.com/static/forever/images/product/ab7f3f6e7b4d49a7dbaec72d7ec00b2b.256p.jpg" alt="img3-2"></td>
+                            </tr>
+                        </table>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

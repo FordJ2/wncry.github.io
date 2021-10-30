@@ -1,0 +1,213 @@
+<html>
+    <title>ICS3UA 2</title>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='code/ch2.css') }}">
+        <link rel="shortcut icon" href="/static/assets/pfp.ico">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			/* width */
+			::-webkit-scrollbar {
+			  width: 10px;
+			}
+			
+			/* Track */
+			::-webkit-scrollbar-track {
+			  background: #f1f1f1; 
+			}
+			 
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+			  background: #888; 
+			}
+			
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+			  background: #555; 
+			}
+
+            .body {
+                background-color:#000;
+            }
+
+            .navbar {
+                font-size: 75px;
+                background-color: #434343;
+                border-radius: 5px;
+                margin-top: 60px;
+            } 
+
+            .navbar-nav .nav-item .nav-link {
+                margin-left: 49;
+                margin-right: 48.5;
+                z-index: 2;
+                position: relative;
+                text-align: center;
+            }
+
+            .e {
+                font-size: 120px;
+                z-index: 1;
+                margin-top: -27;
+                position: absolute;
+                text-align: center;
+            }
+
+            .navbar-nav .nav-item.active .nav-link,
+            .navbar-nav .nav-item:hover .nav-link {
+                color: #000;
+            }
+		</style>
+    </head>
+    <body class="body">
+        <div class="container" style="position: absolute;">
+            <ul>
+                
+            </ul>
+        </div>
+
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+
+                        <p class="e" style="color: #000; left: 92;">■</p>
+                        <p class="e" style="color: #666; left: 347;">■</p>
+                        <p class="e" style="color: #999; left: 602;">■</p>
+                        <p class="e" style="color: #d9d9d9; left: 861;">■</p>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/0">⠀0⠀</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/1">⠀1⠀</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/2">⠀2⠀</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/3">⠀3⠀</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+<!--==================================================-->
+
+        <table class="t0">
+            <tr>
+            <td><table class="t0-5">
+                <tr><td class="item">a)</td> <td class="item">CPU</td></tr>
+                <tr><td class="item">b)</td> <td class="item">Fans</td></tr>
+                <tr><td class="item">c)</td> <td class="item">Power supply</td></tr>
+                <tr><td class="item">d)</td> <td class="item">Data cables</td></tr>
+                <tr><td class="item">e)</td> <td class="item">Power cables</td></tr>
+                <tr><td class="item">f)</td> <td class="item">Motherboard</td></tr>
+                <tr><td class="item">g)</td> <td class="item">CD-ROM drive</td></tr>
+                <tr><td class="item">h)</td> <td class="item">Floppy disk drive (not present)</td></tr>
+                <tr><td class="item">i)</td> <td class="item">RAM + slots</td></tr>
+                <tr><td class="item">j)</td> <td class="item">Hard drive</td></tr>
+                <tr><td class="item">k)</td> <td class="item">Expansion cards + slots</td></tr>
+                <tr><td class="item">l)</td> <td class="item">BIOS chip</td></tr>
+                <tr><td class="item">m)</td> <td class="item">Heat sink</td></tr>
+            </table></td>
+
+            <td><img class="diagram" src="/static/assets/diagram.jpeg" alt="diagram"></td>
+            </tr>
+        </table>
+
+
+        <table class="t1">
+        <tr>
+        <td>
+            <table class="t2">
+                <tr>
+                    <th class="th1">Part</th>
+                    <th class="th1">Description</th>
+                </tr>
+
+                <tr>
+                    <th class="th1">CPU</td>
+                    <td class="td1">CPU stands for Central Processing Unit. A CPU is the brain of a computer, and CPUs can do anything from basic word processing to intense 3D rendering. While most modern CPUs require an external Graphics Processing Unit (GPU) for a display output, some older CPUs have integrated graphics which makes the CPU more independent.</td>
+                </tr>
+
+                <tr>
+                    <th class="th1">Heatsink</td>
+                    <td class="td1">Due to high heat output from the electricity in parts of the computer, a heat dispersion tool is vital for the survival of the computer. A heat sink, most often found on a CPU or GPU, helps move heat away from its source, and into a place where it can be easily cooled.</td>
+                </tr>
+                
+                <tr>
+                    <th class="th1">Fans</td>
+                    <td class="td1">Fans are designed to cool down computer components efficiently. Some fans are designed for ultimate silence for those who are sensitive and can also be designed as a source of decorative lights inside a computer.</td>
+                </tr>
+
+                <tr>
+                    <th class="th1">Motherboard</td>
+                    <td class="td1">The motherboard is the central piece of the system that connects all pieces of a computer together. It also monitors the temperature of the different components.</td>
+                </tr>
+
+                <tr>
+                    <th class="th1">RAM</td>
+                    <td class="td1">Random Access Memory (RAM) is the short term storage in a computer. All temporary, data such as layers in photoshop or tabs in a browser, are stored on RAM cards.</td>
+                </tr>
+
+                <tr>
+                    <th class="th1">Hard Drive</td>
+                    <td class="td1">While RAM deals with short term memory, hard drives deal with long term storage. Files and programs are stored on hard drives.</td>
+                </tr>
+
+                <tr>
+                    <th class="th1">Expansion Slots</td>
+                    <td class="td1">Expansion slots are slots designed to support cards that can expand your motherboard. Whether it be graphics (GPU), sound, networking or even storage, expansion cards and slots are invaluable in a system.</td>
+                </tr>
+
+                <tr>
+                    <th class="th1">PSU</td>
+                    <td class="td1">PSU's (power supply units) are the heart of a computer, and supply power to all internal components.</td>
+                </tr>
+
+                <tr>
+                    <th class="th1">Data Cables</td>
+                    <td class="td1">Data cables are responsible for the transference of data from the motherboard to storage devices.</td>
+                </tr>
+
+                <tr>
+                    <th class="th1">Power cables</td>
+                    <td class="td1">Power cables are responsible delivering power from the power supply to all the internal components.</td>
+                </tr>
+
+                <tr>
+                    <th class="th1">BIOS Chips</td>
+                    <td class="td1">BIOS chips manage the computer startup sequences. It can provide information about errors in your system, as well as help you manage your components in the computer.</td>
+                </tr>
+
+                <tr>
+                    <th class="th1">CD-ROM Drives</td>
+                    <td class="td1">CD-ROM drives are input devices that can read DVDs, CD-ROM discs and CDs. Most forms of media have moved online, making CD-ROM drives pretty much entirely useless</td>
+                </tr>
+
+                <tr>
+                    <th class="th1">Floppy Disc Drives</td>
+                    <td class="td1">Floppy disc drives are ports that accept a format of storage called floppy discs. While not present on most modern systems, they were vital in their era.</td>
+                </tr>
+            </table>
+        </td>
+        </tr>
+        </table>
+
+
+
+	</body>
+</html>
