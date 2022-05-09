@@ -3,6 +3,7 @@ but it works the way it is, and theres really no point in changing it other than
 I really enjoyed this project and if you want to see the finished site, I have it linked here:
 **https://wncry.github.io**
 
+This website was coded from scratch :)
 
 ————————————————————————
 
